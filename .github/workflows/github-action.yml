@@ -40,4 +40,4 @@ jobs:
           curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar
           echo Unified Agent downloaded successfully
           WARFILE=$(find ./ -type f -wholename "*/target/*.war")
-          java -jar wss-unified-agent.jar -appPath $WARFILE -d ./
+          java -jar wss-unified-agent.jar -appPath $WARFILE -d ./ -wss.url https://saas-eu.whitesourcesoftware.com/agent
