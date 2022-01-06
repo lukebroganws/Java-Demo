@@ -16,10 +16,6 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "extends": ["config:base"]
-  },
-      "remediateSettings": {
-      "transitiveRemediation": true,
-      "extends": ["github>whitesource/merge-confidence:beta"]
+    "extends": ["github>whitesource/merge-confidence:beta"]
     }
 }
